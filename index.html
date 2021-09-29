@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>B2School - Embedding 👀</title>
+    <script
+      type="text/javascript"
+      src="https://public.tableau.com/javascripts/api/tableau-2.min.js"
+    ></script>
+  </head>
+  <body>
+    <h1>Embedding with DS20</h1>
+    <div>
+      <button id="exportToPDF">Export PDF</button>
+      <button id="exportToPowerpoint">Export PowerPoint</button>
+    </div>
+    <div>
+      <input type="number" placeholder="min vlaue" id="minValue" />
+      <input type="number" placeholder="max vlaue" id="maxValue" />
+      <button id="filterButton">Filter the sales</button>
+    </div>
+    <!-- Comments are done with cntrl + forewardslash -->
+    <!-- Place to store our Tableau dashboard -->
+    <div id="vizContainer"></div>
+
+    <!-- Load the app.js file -->
+    <script src="./app.js"></script>
+  </body>
+</html>
